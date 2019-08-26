@@ -1,0 +1,96 @@
+/*
+ * 初始化css + bootstrap 常用工具类
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: text;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "微软雅黑";
+  background: #f0f0f0;
+  max-width: 750px;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  margin-left: -375px !important;
+  -webkit-text-size-adjust: 100% !important;
+}
+
+input{
+  -webkit-appearance: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+a {
+  cursor: pointer;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+.clearfix:after,
+.clearfix:before {
+  display: table;
+  content: ' ';
+  display: block;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+img {
+  border: 0;
+}
