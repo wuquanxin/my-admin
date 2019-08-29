@@ -26,7 +26,20 @@
   },
   "postcss": {
     "plugins": {
-      "autoprefixer": {}
+      "autoprefixer": {
+        "browsers": [
+          "iOS >= 8",
+          "Firefox >= 20",
+          "Android > 4.4"
+        ],
+        "overrideBrowserslist": [
+          "Android 4.1",
+          "iOS 7.1",
+          "Chrome > 31",
+          "ff > 31",
+          "ie >= 8"
+        ]
+      }
     }
   },
   "browserslist": [
