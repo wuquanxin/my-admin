@@ -1,19 +1,14 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import NProgress from 'nprogress'
+// 引入路由
+import action from 'src/routers/action/router'
 
 Vue.use(Router)
-
 const VRouter = new Router({
   mode: 'hash',
-  base: '',
-  routes: [
-    {
-      path: '/',
-      name: '首页',
-      component: () => import(/* webpackChunkName: "index" */ './views/Index/index.vue')
-    }
-  ]
+  // base: '',
+  routes: action
 })
 VRouter.beforeEach((to, from, next) => {
 
